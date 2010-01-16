@@ -1,17 +1,18 @@
-= sass_hsl_ext
+SassExtensions
+==============
 
-Description goes here.
+This is just a quick and simple extension for use in Sass.  We were
+experimenting with HSL to RGB for automatic themes based on color theory.
+Picking a color based on degrees on a color wheel is a bit easier with
+HSL than RGB.
 
-== Note on Patches/Pull Requests
- 
-* Fork the project.
-* Make your feature addition or bug fix.
-* Add tests for it. This is important so I don't break it in a
-  future version unintentionally.
-* Commit, do not mess with rakefile, version, or history.
-  (if you want to have your own version, that is fine but bump version in a commit by itself I can ignore when I pull)
-* Send me a pull request. Bonus points for topic branches.
+Installation and Requirements
+============================
+requires:
+  - haml (for sass)
+  - color gem (for the colorspace conversions)
 
-== Copyright
+For use in a Rails project, use this gem.
 
-Copyright (c) 2010 Eddy Kim. See LICENSE for details.
+
+Copyright (c) 2010 Eddy Kim, released under the MIT license
