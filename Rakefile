@@ -5,12 +5,11 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "sass_hsl_ext"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{SASS extension to add hsl function}
+    gem.description = %Q{Very simple function to add HSL to Sass. requires the color gem to do the heavy lifting of colorspace conversions.  And Haml/Sass of course.}
     gem.email = "eddyhkim@gmail.com"
     gem.homepage = "http://github.com/edk/sass_hsl_ext"
     gem.authors = ["Eddy Kim"]
-    gem.add_development_dependency "thoughtbot-shoulda", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
