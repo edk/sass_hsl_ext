@@ -10,6 +10,7 @@ begin
     gem.email = "eddyhkim@gmail.com"
     gem.homepage = "http://github.com/edk/sass_hsl_ext"
     gem.authors = ["Eddy Kim"]
+    gem.add_dependency 'color'
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end
   Jeweler::GemcutterTasks.new
